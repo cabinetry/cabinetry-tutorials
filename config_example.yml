@@ -2,6 +2,7 @@ General:
   Measurement: "minimal_example"
   POI: "Signal_norm"
   HistogramFolder: "histograms/"
+  InputPath: "ntuples/{SamplePaths}"
 
 Regions:
   - Name: "Signal_region"
@@ -12,24 +13,18 @@ Regions:
 Samples:
   - Name: "Data"
     Tree: "pseudodata"
-    Path: "ntuples/data.root"
+    SamplePaths: "data.root"
     Data: True
-
-  - Name: "Background"
-    Tree: "background"
-    Path: "ntuples/prediction.root"
-    Weight: "weight"
 
   - Name: "Signal"
     Tree: "signal"
-    Path: "ntuples/prediction.root"
+    SamplePaths: "prediction.root"
     Weight: "weight"
 
-NormFactors:
-  - Name: "Signal_norm"
-    Samples: "Signal"
-    Nominal: 1
-    Bounds: [0, 5]
+  - Name: "Background"
+    Tree: "background"
+    SamplePaths: "prediction.root"
+    Weight: "weight"
 
 Systematics:
   - Name: "Luminosity"
@@ -42,7 +37,7 @@ Systematics:
 
   - Name: "Modeling"
     Up:
-      Path: "ntuples/prediction.root"
+      SamplePaths: "prediction.root"
       Tree: "background_varied"
     Down:
       Symmetrize: True
@@ -56,3 +51,9 @@ Systematics:
       Weight: "0.7*weight"
     Samples: "Background"
     Type: "NormPlusShape"
+
+NormFactors:
+  - Name: "Signal_norm"
+    Samples: "Signal"
+    Nominal: 1
+    Bounds: [0, 10]
