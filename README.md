@@ -1,6 +1,7 @@
 # cabinetry-tutorials
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cabinetry/cabinetry-tutorials/master)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5121551.svg)](https://doi.org/10.5281/zenodo.5121551)
 
 This repository collects tutorial material for [cabinetry](https://github.com/alexander-held/cabinetry/):
 - `example.ipynb`: walkthrough for basic `cabinetry` usage, [run on Binder](https://mybinder.org/v2/gh/cabinetry/cabinetry-tutorials/master?filepath=example.ipynb)!
