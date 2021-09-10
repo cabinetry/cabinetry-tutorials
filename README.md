@@ -10,5 +10,5 @@ This repository collects tutorial material for [cabinetry](https://github.com/al
 See also the [PyHEP 2021 talk: *Binned template fits with cabinetry*](https://indico.cern.ch/event/1019958/contributions/4421868/) and the associated notebook in the [PyHEP-2021-cabinetry](https://github.com/alexander-held/PyHEP-2021-cabinetry/) repository.
 
 The tutorials in this repository are generally kept up-to-date with the latest available `cabinetry` version.
-They are currently compatible with `cabinetry` [`v0.2.3`](https://github.com/alexander-held/cabinetry/releases/tag/v0.2.3).
+They are currently compatible with `cabinetry` [`v0.3.0`](https://github.com/alexander-held/cabinetry/releases/tag/v0.3.0).
 This `cabinetry` version requires Python 3.7 or 3.8, since `cabinetry` dropped support for Python 3.6 with version [`v0.2.0`](https://github.com/alexander-held/cabinetry/releases/tag/v0.2.0).
