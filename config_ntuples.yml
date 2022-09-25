@@ -20,6 +20,7 @@ Samples:
     Tree: "signal"
     SamplePath: "prediction.root"
     Weight: "weight"
+    DisableStaterror: True
 
   - Name: "Background"
     Tree: "background"

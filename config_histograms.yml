@@ -16,6 +16,7 @@ Samples:
 
   - Name: "Signal"
     SamplePath: "Signal"
+    DisableStaterror: True
 
   - Name: "Background"
     SamplePath: "Background"
