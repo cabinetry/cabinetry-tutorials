@@ -11,5 +11,5 @@ See also the [PyHEP 2021 talk: *"Binned template fits with cabinetry"*](https://
 The [PyHEP 2022 talk *"End-to-end physics analysis with Open Data: the Analysis Grand Challenge"*](https://indico.cern.ch/event/1150631/contributions/5000592/) shows `cabinetry` in use in a full analysis pipeline.
 
 The tutorials in this repository are generally kept up-to-date with the latest available `cabinetry` version.
-They are currently compatible with `cabinetry` [`v0.5.0`](https://github.com/scikit-hep/cabinetry/releases/tag/v0.5.0).
+They are currently compatible with `cabinetry` [`v0.5.1`](https://github.com/scikit-hep/cabinetry/releases/tag/v0.5.1).
 This `cabinetry` version requires Python 3.7 or newer, since `cabinetry` dropped support for Python 3.6 with version [`v0.2.0`](https://github.com/scikit-hep/cabinetry/releases/tag/v0.2.0).
